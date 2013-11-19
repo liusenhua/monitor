@@ -28,7 +28,8 @@ CPU Utilization Test Summary
     -  (totalCPU- totalIdle)/totalCPU solution is correct.
 
         1.  B algorithm: uint64(ncpu)*(ucpu+scpu)/ totalCPU, I can understand the multiple cause the range
-            to go from 0…800% on an 8CPU machine, but that doesn’t make any sense, on the contrary, it make me confused. Because I got 196% on 2-core machine and 793% on 8-core machine when all cpu core are running out.
+            to go from 0…800% on an 8CPU machine, but that doesn’t make any sense, on the contrary, it make me confused.
+            Because I got 196% on 2-core machine and 793% on 8-core machine when all cpu core are running out.
 
         2.  Both of algorithm A and C are correct, they are two different perspectives: A shows cpu core 
             usage, but C shows process usage. See “8-cpu-with-others.txt”.

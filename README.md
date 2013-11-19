@@ -34,4 +34,4 @@ You need install go SDK
 
 It will output below format txt:
 
-date time | NCPU Total(All) Idle(All) Used(All), Total(cpu0) Idel(cpu0) Used(cpu0), ... | ProgramName PID Used 
+Date Time | NCPU Total(All) Idle(All) Used(All), Total(cpu0) Idel(cpu0) Used(cpu0), ... | ProgramName PID Used Used*NCPU
